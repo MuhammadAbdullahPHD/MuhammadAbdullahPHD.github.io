@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Muhammad Abdullah monogram</title>
+  <defs>
+    <linearGradient id="g" x1="8" y1="7" x2="57" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b2447"/>
+      <stop offset="1" stop-color="#0d7580"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#g)"/>
+  <path d="M14 43V21h6.1l6 10.4L32 21h6v22h-6V31.7l-5.8 9.4-6.1-9.4V43H14Z" fill="#fff"/>
+  <path d="m39.1 43 8.3-22h6.2L62 43h-6.5l-1.5-4.4h-7.6L45 43h-5.9Zm9-9.5h4.3l-2.1-6.3-2.2 6.3Z" fill="#76ddd7"/>
+</svg>
