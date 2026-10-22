@@ -7,7 +7,7 @@
   <meta name="description" content="Datasets, biomechanical methods, experimental systems and computational tools used by Muhammad Abdullah.">
   <link rel="canonical" href="https://muhammadabdullahphd.github.io/data-methods.html">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261022-1">
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -21,7 +21,10 @@
       <div class="container">
         <div class="section-heading"><p class="eyebrow">Public dataset</p><h2>Multimodal gait data from young adults</h2><p>The dataset combines brain activity, muscle activity, kinematics and ground-force measurements collected during treadmill walking.</p></div>
         <div class="project-panel">
-          <div class="research-placeholder" role="img" aria-label="Placeholder for a future gait-laboratory instrumentation image"><span class="placeholder-label">Research visualization coming soon · synchronized gait instrumentation</span></div>
+          <figure class="research-figure">
+                <img src="assets/research/multimodal-gait.svg" alt="Walking figure with representative EEG, EMG and IMU sensors above a split-belt force treadmill." width="600" height="420" loading="lazy" decoding="async">
+                <figcaption><strong>Conceptual illustration.</strong> Representative sensors; no participant data or recorded signals are shown.</figcaption>
+              </figure>
           <div>
             <p class="meta">PhysioNet · Released April 2026</p>
             <h3>A multimodal gait dataset of brain activity, muscle activity, kinematics and ground forces in young adults</h3>
@@ -33,6 +36,7 @@
             </div>
             <p><strong>Walking speeds:</strong> 0.5, 0.75 and 1.0 m/s.</p>
             <p><strong>Measurements:</strong> 19-channel EEG, Delsys surface EMG from 12 lower-limb muscles, 17 Xsens IMUs and bilateral Bertec force plates.</p>
+            <p class="instrumentation-note">EEG, EMG and IMU acquisition used a trigger protocol. Force-plate recording was manually initiated near-synchronously; the diagram does not imply shared hardware synchronization across all four modalities.</p>
             <a class="button secondary" href="https://doi.org/10.13026/r0ea-7161" target="_blank" rel="noreferrer">Open dataset DOI <span aria-hidden="true">↗</span></a>
           </div>
         </div>

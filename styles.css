@@ -508,53 +508,29 @@ button:focus-visible {
   padding: 25px 27px 29px;
 }
 
-.research-placeholder {
-  position: relative;
-  min-height: 220px;
+.research-figure {
+  margin: 0;
+  min-width: 0;
   overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  padding: 24px;
-  color: var(--white);
-  background:
-    radial-gradient(circle at 24% 30%, rgba(95, 230, 215, 0.38), transparent 18%),
-    radial-gradient(circle at 76% 64%, rgba(88, 151, 213, 0.32), transparent 22%),
-    linear-gradient(135deg, var(--navy-950), var(--navy-800));
+  background: var(--navy-950);
 }
 
-.research-placeholder::before,
-.research-placeholder::after {
-  content: "";
-  position: absolute;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 50%;
+.research-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 10 / 7;
 }
 
-.research-placeholder::before {
-  width: 170px;
-  height: 170px;
-  top: -48px;
-  right: -24px;
-  box-shadow: 0 0 0 28px rgba(255, 255, 255, 0.025), 0 0 0 58px rgba(255, 255, 255, 0.018);
+.research-figure figcaption {
+  padding: 12px 18px 15px;
+  color: #d8e8f5;
+  font-size: 0.8rem;
+  line-height: 1.5;
 }
 
-.research-placeholder::after {
-  width: 92px;
-  height: 92px;
-  left: 34px;
-  bottom: 42px;
-  transform: rotate(24deg);
-  border-radius: 32% 68% 48% 52%;
-}
-
-.placeholder-label {
-  position: relative;
-  z-index: 1;
-  max-width: 250px;
-  font-size: 0.75rem;
-  font-weight: 780;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.research-figure figcaption strong {
+  color: #68d9cf;
 }
 
 .meta {
@@ -712,8 +688,8 @@ button:focus-visible {
   box-shadow: var(--shadow-sm);
 }
 
-.project-panel .research-placeholder {
-  min-height: 205px;
+.project-panel .research-figure {
+  align-self: start;
   border-radius: 14px;
 }
 
