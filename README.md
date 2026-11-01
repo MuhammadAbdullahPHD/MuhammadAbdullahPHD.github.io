@@ -41,3 +41,8 @@ The three hand-authored SVG files in `assets/research/` share the site's navy, b
 - `multimodal-gait.svg`: representative EEG, EMG and IMU instrumentation above a split-belt force treadmill, based on the [PhysioNet dataset methods](https://physionet.org/content/multimodal-gait-dataset/1.0.0/). Sensor positions are symbolic, not an electrode-placement guide. EEG/EMG/IMU used a trigger protocol; treadmill force acquisition was manually initiated near-synchronously. The diagram deliberately shows no common hardware synchronization bus or invented signal traces.
 
 These illustrations may be edited alongside the site source. Do not relabel them as measured anatomy or published results.
+
+
+## News updates
+
+Add new entries at the top of `news.html`, following the existing article structure. Use confirmed dates and link to the paper, dataset or event. Distinguish conference papers from attendance or presentations. Add lab activities only with confirmed details and suitable public photos. Update the Latest news section in `index.html` when featuring a new item. Publication citations also belong in `publications.html`.
